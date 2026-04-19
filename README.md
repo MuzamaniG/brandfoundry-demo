@@ -4,7 +4,7 @@ A static GitHub Pages site that showcases recorded walkthroughs of the BrandFoun
 workspace. We use this at presentations so we don't have to do live demos — attendees
 scan a QR code and watch the videos on their own devices.
 
-**Live:** https://mhgausi.github.io/brandfoundry-demo/
+**Live:** https://muzamanig.github.io/brandfoundry-demo/
 
 ## Adding a new video
 
@@ -33,7 +33,7 @@ The QR image at `assets/qr-code.png` points at the Pages URL. If the URL ever ch
 
 ```bash
 curl -L -o assets/qr-code.png \
-  "https://api.qrserver.com/v1/create-qr-code/?size=512x512&margin=10&data=https%3A%2F%2Fmhgausi.github.io%2Fbrandfoundry-demo%2F"
+  "https://api.qrserver.com/v1/create-qr-code/?size=512x512&margin=10&data=https%3A%2F%2Fmuzamanig.github.io%2Fbrandfoundry-demo%2F"
 ```
 
 Commit the new PNG and push.
